@@ -12,7 +12,7 @@
 
 <h2><a href="create.php">Escreva sua notícia</a></h2>
 
-<h2><a href="read.php">Procure por uma notícia</a></h2>
+<h2><a href="form_select.php">Procure por uma notícia</a></h2>
 
 <h2><a href="form_update.php">Atualize e edite uma notícia</a></h2>
     
