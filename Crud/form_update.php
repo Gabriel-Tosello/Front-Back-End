@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>UPDATE</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
     
@@ -12,13 +14,16 @@
 
 <form action="update.php" method="POST">
 
-<h2>Edite o contéudo de sua notícia</h2>
+<div class="bloco2">
+        <h2>Edite o contéudo de sua notícia</h2>
 
         <h3>Código identificador da notícia:</h3>
         <input type="text" name="cod" placeholder="Digite o codígo"><br>
         <br>
-        <hr>
+        <hr color=#fff;>
+</div>
 
+    <div class="bloco2">
         <h3>Título:</h3>
         <input type="text" name="titulo" placeholder="Digite o título"><br>
 
@@ -36,6 +41,7 @@
         </textarea><br>
 
         <input type="submit" value="Atualizar">
+</div>
 
     </form>
 

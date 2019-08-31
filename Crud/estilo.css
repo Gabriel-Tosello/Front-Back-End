@@ -1,0 +1,60 @@
+body{
+background-color:rgb(68, 117, 221);
+}
+
+body a{
+color:#fff;
+}
+
+.bloco{
+text-align: center;
+}
+
+.bloco h1{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/****CREATE*****/
+
+.bloco2{
+margin:3%;
+}
+
+/*****INDEX*****/
+
+.bloco3{
+text-align: center;
+}
+
+.bloco3 h2{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.servicos{
+width:100%;
+float: left;
+padding: 3% 4%;
+}
+    
+.servico{
+width:100%;
+background-color: #fff;
+text-align: center;
+border-radius: 7px;
+margin-bottom:  3%;
+}
+
+.titulo1{
+margin:2%;
+}
+
+/****LINKS*****/
+
+.link{
+text-decoration: none;
+color:#fff;
+}
+
+.link:hover{
+color:blue;
+}
